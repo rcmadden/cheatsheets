@@ -5,6 +5,7 @@
 
 # My Non-Visual Studio Files
 docs/_navbar.md
+.DS_Store
 
 # User-specific files
 *.rsuser

@@ -1,7 +1,7 @@
 
 # Git Cheatsheet
 
-[My notes](https://github.com/rcmadden/notes/blob/main/git-versoin-control.md) of basic commands for getting re-started using git from [Udacity’s Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) free course completed 2/2021, the [Atlasian Tutorial](https://www.atlassian.com/git/tutorials), [Git Documentation](https://git-scm.com/docs) plus random notes I have stashed in several locations from previous experience.
+[My notes](https://rcmadden.github.io/notes/#/git-version-control) of basic commands for getting re-started using git from [Udacity’s Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) free course completed 2/2021, the [Atlasian Tutorial](https://www.atlassian.com/git/tutorials), [Git Documentation](https://git-scm.com/docs) plus random notes I have stashed in several locations from previous experience.
 
 ## Creating a Repo
 ### Empty Directory
