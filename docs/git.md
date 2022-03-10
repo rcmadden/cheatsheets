@@ -35,3 +35,8 @@ git clone <repo>
 git fetch # will update all the remote-tracking branches
 git pull # will in addition merge the remote master branch into the current master branch
 ```
+### Add and Commit file
+```sh
+git commit -am 'commit message'
+```
+
