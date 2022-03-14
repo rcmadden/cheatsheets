@@ -35,7 +35,7 @@ git clone <repo>
 git fetch # will update all the remote-tracking branches
 git pull # will in addition merge the remote master branch into the current master branch
 ```
-### Add all files and commit 
+### Add and Commit All (single command) 
 ```sh
 git commit -am 'commit message'
 ```
@@ -44,3 +44,9 @@ This does not work with new files, which requires the capitalized -A flag
 git commit -A
 git commit -m 'commit message'
 ```
+
+### Edit Last Commit Message
+```
+git commit --amend
+```
+In the text editor, edit the message and close the file.
