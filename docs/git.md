@@ -50,3 +50,25 @@ git commit -m 'commit message'
 git commit --amend
 ```
 In the text editor, edit the message and close the file.
+
+## Branching
+
+### List Branches
+list all branches in local and remote repositories:
+``` 
+git branch -a 
+```
+list remote branches:
+``` 
+git branch -r
+```
+lsit branches and their commits:
+``` 
+git show-branch
+```
+
+
+### Switching Unstagged Changes to a New Branch
+``` 
+git switch -c new-branch-name
+```
