@@ -72,3 +72,6 @@ git show-branch
 ``` 
 git switch -c new-branch-name
 ```
+
+### .gitignore
+<script src="https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374.js"></script>
