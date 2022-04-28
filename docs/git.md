@@ -74,4 +74,5 @@ git switch -c new-branch-name
 ```
 
 ### .gitignore
-<script src="https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374.js"></script>
+
+[Add .DS_Store in all sub-directories to .gitignore](https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374#file-add-ds_store-into-gitignore-for-the-sub-directory-md)
