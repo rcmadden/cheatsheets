@@ -77,7 +77,6 @@ git switch -c new-branch-name
 ### .gitignore
 
 [Add .DS_Store in all sub-directories to .gitignore](https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374#file-add-ds_store-into-gitignore-for-the-sub-directory-md)
-||||||| parent of 2876362 (add solution for everything up to date when commits present)
 ```
 =======
 ```
@@ -98,4 +97,3 @@ git push -u origin master
 ```
 source: [Stack Overflow](https://stackoverflow.com/questions/999907/git-push-says-everything-up-to-date-even-though-i-have-local-changes 
 )
->>>>>>> 2876362 (add solution for everything up to date when commits present)
