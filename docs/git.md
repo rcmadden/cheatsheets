@@ -71,14 +71,13 @@ git show-branch
 ### Switching Unstagged Changes to a New Branch
 ``` 
 git switch -c new-branch-name
-<<<<<<< HEAD
 ```
 
 ### .gitignore
 
 [Add .DS_Store in all sub-directories to .gitignore](https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374#file-add-ds_store-into-gitignore-for-the-sub-directory-md)
 ```
-=======
+**/.DS_Store
 ```
 
 ## Issues and Errors
