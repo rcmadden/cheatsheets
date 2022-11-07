@@ -62,7 +62,7 @@ list remote branches:
 ``` 
 git branch -r
 ```
-lsit branches and their commits:
+list branches and their commits:
 ``` 
 git show-branch
 ```
@@ -80,7 +80,8 @@ Move to different branch
 git branch --delete branch-name
 ```
 #### Delete Remote Branch
-```git push origin -d branch-name
+```
+git push origin -d branch-name
 ```
 where "orign" is the remote-name
 
