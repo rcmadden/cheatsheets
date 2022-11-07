@@ -73,6 +73,18 @@ git show-branch
 git switch -c new-branch-name
 ```
 
+### Delete Branch
+Move to different branch
+#### Delete Local Branch
+``` 
+git branch --delete branch-name
+```
+#### Delete Remote Branch
+```git push origin -d branch-name
+```
+where "orign" is the remote-name
+
+
 ### .gitignore
 
 [Add .DS_Store in all sub-directories to .gitignore](https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374#file-add-ds_store-into-gitignore-for-the-sub-directory-md)
