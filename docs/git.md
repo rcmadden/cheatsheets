@@ -109,3 +109,22 @@ git push -u origin master
 ```
 source: [Stack Overflow](https://stackoverflow.com/questions/999907/git-push-says-everything-up-to-date-even-though-i-have-local-changes 
 )
+
+### .gitignore not working
+how to ignore file that is being tracked by git
+
+First commit any outstanding code changes, and then, run this command:
+```
+git rm --cached filename
+```
+This removes any changed files from the index(staging area):
+```
+git rm -r --cached .
+git add .
+```
+Commit change:
+```
+git commit -m ".gitignore is now working"
+```
+
+Reference: [Stack Overflow](https://stackoverflow.com/questions/25436312/gitignore-not-working)
