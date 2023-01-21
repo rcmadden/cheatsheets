@@ -50,11 +50,12 @@ zellner
 BONUS: will display inline in terminal when file closed
 
 ## My .vimrc settings
+```txt
 syntax on
 set number
 colorscheme slate
 set mouse=a
-
+```
 ### On demand in vim
 
 ## Turn on syntax highlighting
