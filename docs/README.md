@@ -3,3 +3,4 @@
 > Work In Progress notes and cheatsheets.
 
 * [git](git.md)
+* [vim](vim.md)
