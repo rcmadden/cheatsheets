@@ -47,7 +47,8 @@ zellner
 * my favorites
 ### To preview vim colors
 :colo <any from above>
-BONUS: will display inline in terminal when file closed
+
+BONUS: will display inline in terminal when file closed so you can see all the colorschemes selected inline.
 
 ## My .vimrc settings
 ```txt
@@ -67,10 +68,7 @@ set mouse=a
 ## Turn on mouse use
 :set mouse=a
 
-
-
 ## Set Line Numbers
 :set number
-colorscheme slate
-set mouse=a
+
 
