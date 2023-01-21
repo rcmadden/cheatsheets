@@ -22,26 +22,26 @@ Open a document with vim
 ```bash 
 :colorscheme ctrl + d
 ```
-blue
-darkblue
-default
-delek
-desert
-elflord
-evening
-habamax
-*industry
-koehler
-murphy
-lunaperche 
-*pablo
-morning
-peachpuff
-quiet
-ron
-shine
-*slate
-torte
+blue,
+darkblue,
+default,
+delek,
+desert,
+elflord,
+evening,
+habamax,
+*industry,
+koehler,
+murphy,
+lunaperche, 
+*pablo,
+morning,
+peachpuff,
+quiet,
+ron,
+shine,
+*slate,
+torte,
 zellner
 
 * my favorites
