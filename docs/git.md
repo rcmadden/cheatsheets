@@ -67,6 +67,38 @@ list branches and their commits:
 git show-branch
 ```
 
+### Merge a Git Branch into main 6 steps
+source: https://www.w3docs.com/snippets/git/best-and-safe-way-to-merge-a-git-branch-into-master.html
+#### 1. Git fetching
+Get the latest updates of your repository to your branch
+```
+git fetch
+```
+#### 2. Git rebasing
+Brign the latest commits of main to your branch
+note: in the cases when there are changes on the master branch pushed from a different developer, a conflict can occur while trying to push your merge back. For this reason, always do a rebase before merge.
+``` 
+git rebase origin/main
+```
+#### 3. Switch to main
+```
+git checkout main
+```
+#### 4. Pulling changes
+``` 
+git pull origin main
+```
+#### 5. Merging changes
+```
+git merge test
+```
+#### 6. Pushing changes
+Final step is push local changes to the remote repo
+```
+git push origin main
+```
+
+
 
 ### Switching Unstagged Changes to a New Branch
 ``` 
