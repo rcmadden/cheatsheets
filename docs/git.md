@@ -127,9 +127,13 @@ git branch -m old_branch new_branch
 git push origin :old_branch
 ```
 ##### 3.  Push the new branch
-and set local branch to track the new remote branch  
 ```
 git push --set-upstream origin new_branch
+```
+##### 4. Pull the remote branch
+and set local branch to track the new remote branch  
+```
+git fetch
 ```
 [source](https://gist.github.com/lttlrck/9628955) 
 ### .gitignore
