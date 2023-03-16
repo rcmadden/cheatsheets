@@ -117,7 +117,21 @@ git push origin -d branch-name
 ```
 where "orign" is the remote-name
 
-
+#### Rename Local Branch and Remote Branch
+##### 1. Rename branch locally  
+```
+git branch -m old_branch new_branch
+```
+##### 2.  Delete the old branch  
+```
+git push origin :old_branch
+```
+##### 3.  Push the new branch
+and set local branch to track the new remote branch  
+```
+git push --set-upstream origin new_branch
+```
+[source](https://gist.github.com/lttlrck/9628955) 
 ### .gitignore
 
 [Add .DS_Store in all sub-directories to .gitignore](https://gist.github.com/rcmadden/ed57a253474c833eba01f7eaca6ec374#file-add-ds_store-into-gitignore-for-the-sub-directory-md)
