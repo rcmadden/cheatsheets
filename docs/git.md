@@ -150,7 +150,7 @@ I have a github repo as my single source of truth.  I want to pull changes into 
 3. add a remote referencing your GitHub repo
 
 ```
-  git remote add github /url/of/github/repo
+  git remote add github /github/repo/url
 ```
 
 4.  pull from that github repo
@@ -164,6 +164,7 @@ I have a github repo as my single source of truth.  I want to pull changes into 
 ```
     git push -u origin main
 ```
+reference: [Stack Overflow](https://stackoverflow.com/a/26210782)
 
 ## Issues and Errors
 ### git push says "everything up-to-date" even though I have local changes
