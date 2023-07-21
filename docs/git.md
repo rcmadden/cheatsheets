@@ -142,6 +142,28 @@ git fetch
 ```
 **/.DS_Store
 ```
+## Sync github repo to Bitbucket
+I have a github repo as my single source of truth.  I want to pull changes into Bitbucket as they occur.
+
+1. import github repo into Bitbucket - Actions > Import Repository
+2. clone your Bitbucket repo locally
+3. add a remote referencing your GitHub repo
+
+```
+  git remote add github /url/of/github/repo
+```
+
+4.  pull from that github repo
+
+```
+  git pull github main
+```
+
+5.  push back to Bitbucket
+
+```
+    git push -u origin main
+```
 
 ## Issues and Errors
 ### git push says "everything up-to-date" even though I have local changes
