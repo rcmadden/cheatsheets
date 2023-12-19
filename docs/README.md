@@ -4,3 +4,4 @@
 
 * [git](git.md)
 * [vim](vim.md)
+* [latex](latex.md)
