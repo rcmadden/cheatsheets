@@ -1,4 +1,4 @@
-# LaTex Notatiion Cheatsheet
+# LaTex Notation Cheatsheet
 Reference Cheatsheets 
 [Authora](https://www.authorea.com/users/77723/articles/110898-how-to-write-mathematical-equations-expressions-and-symbols-with-latex-a-cheatsheet)
 
